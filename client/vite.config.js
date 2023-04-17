@@ -15,9 +15,10 @@ export default defineConfig({
     },
   },
   build: {
-    manifest: true,
-    rollupOptions: {
-      input: "./src/main.js",
-    },
+    outDir:"build",
+    // manifest: true,
+    // rollupOptions: {
+    //   input: "./src/main.js",
+    // },
   },
 });
